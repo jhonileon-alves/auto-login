@@ -5,7 +5,6 @@
 ![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Edge WebDriver](https://img.shields.io/badge/Browser-Edge-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Funcional-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 > **Automação profissional de login em portais web utilizando Selenium WebDriver e Python.**
 
@@ -18,7 +17,7 @@ Este projeto é uma solução completa de **RPA (Robotic Process Automation)** p
 ### Principais Diferenciais:
 
 - ✅ **Segurança:** Uso de variáveis de ambiente para proteger credenciais, sem senhas hardcoded.  
-- ✅ **Estabilidade:** Implementação de *Explicit Waits* (`WebDriverWait`) para evitar erros de elementos não carregados.  
+- ✅ **Estabilidade:** Uso de `WebDriverWait` (Explicit Waits) para evitar erros de elementos não carregados.  
 - ✅ **Persistência:** O navegador permanece aberto após a execução (`detach: True`) para verificação humana ou continuação do fluxo.  
 - ✅ **Modularidade:** Código organizado em funções, fácil de expandir para outros portais.  
 
